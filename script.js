@@ -7,7 +7,7 @@
   3. answerType: "text" or "number"
 */
 
-const NEXT_PART_CODE = "1309";
+const NEXT_PART_CODE = "0309";
 
 // Each GitHub Pages path gets its own saved progress.
 const STORAGE_KEY = "diamentowy-testament-" + window.location.pathname;
