@@ -13,12 +13,12 @@ const NEXT_PART_CODE = "0309";
 const STORAGE_KEY = "diamentowy-testament-" + window.location.pathname;
 
 const QUESTS = [
-  { answerType: "text",   answers: ["a"] },   // Quest 1
-  { answerType: "number", answers: ["2"] },   // Quest 2
-  { answerType: "text",   answers: ["c"] },   // Quest 3
-  { answerType: "number", answers: ["4"] },   // Quest 4
-  { answerType: "text",   answers: ["e"] },   // Quest 5
-  { answerType: "number", answers: ["6"] }    // Quest 6
+  { answerType: "number",   answers: ["7641"] },   // Quest 1
+  { answerType: "text", answers: ["San diego"] },   // Quest 2
+  { answerType: "text,numer,text",   answers: ["piłka, 47, Tim","ball, 47, Tim","cupcake, 60, Tim","babeczka, 60, Tim","młotek, 36, Tim","hammer, 36, Tim","pierścionek, 37, Tim","ring, 37, Tim","kwiatek, 58, Tim","flower, 58, Tim","pierścionek, 7, Nick","ring, 7, Nick","pierścionek, 42, Tim","ring, 42, Tim","kwiatek, 65, Tim","flower, 65, Tim","samochód, 60, Tim","auto, 60, Tim","car, 60, Tim","kwiatek, 4, Tim","flower, 4, Tim","aparat, 33, Tim","camera, 33, Tim","aparat, 62, Tim","camera, 62, Tim"] },   // Quest 3
+  { answerType: "number", answers: ["1023"] },   // Quest 4
+  { answerType: "number",   answers: ["2133"] },   // Quest 5
+  { answerType: "text", answers: ["Las vegas"] }    // Quest 6
 ];
 
 const questsContainer = document.querySelector("#quests");
